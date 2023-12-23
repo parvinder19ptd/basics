@@ -14,7 +14,7 @@ public class WeightCalculator {
         }
 
         // Adjust weight based on age
-        if (age < 19) {
+        if (age < 17) {
             baseWeight -= 2.0;
         } else if (age >= 60) {
             baseWeight += 3.0;
